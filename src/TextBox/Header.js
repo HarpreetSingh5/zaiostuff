@@ -6,7 +6,7 @@ class Header extends Component{
                   <div className="container">
                     <div className="divider"></div>
                         <div className="section">
-                            <h3>Dynamic Search Bar</h3>
+                            <h3>Real time text display</h3>
                             <p>The text you enter will be displayed in the area below it. If you tick the spongify checkbox, each letter of your text will be capitalised at random.</p>
                         </div>         
                     </div>
