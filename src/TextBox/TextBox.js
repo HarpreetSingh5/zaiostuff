@@ -2,7 +2,8 @@ import React,{Component} from 'react';
 import Form from "./Form"
 import Header from "./Header"
 import TextDisplay from "./TextDisplay"
-import "./Dynamic.css"
+
+
 
 class TextBox extends Component{
   
