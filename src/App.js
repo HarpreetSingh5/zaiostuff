@@ -11,10 +11,10 @@ function App() {
     <BrowserRouter>
       <div className="App">
         <Navbar/>
-        <Route exact path = "/" component = {Home} />
-        <Route path ="/ReactIsFun" component={TextBox}/>
-        <Route path ='/AuthenticationUsingArrays' component={ArrayAuth}/>
-        <Route path ='/DynamicSearchBar' component={DynamicSearchBar}/>
+        <Route exact path = "/zaiostuff/" component = {Home} />
+        <Route path ="/zaiostuff/ReactIsFun" component={TextBox}/>
+        <Route path ='/zaiostuff/AuthenticationUsingArrays' component={ArrayAuth}/>
+        <Route path ='/zaiostuff/DynamicSearchBar' component={DynamicSearchBar}/>
       </div>    
       </BrowserRouter>
   );

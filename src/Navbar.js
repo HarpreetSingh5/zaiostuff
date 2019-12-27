@@ -7,9 +7,9 @@ const Navbar = () => {
       <div className="container">
         <a className="brand-logo">Zaio Challenges</a>
         <ul className="right">
-          <li><a href="/ReactIsFun">React is fun</a></li>
-          <li><a href='/AuthenticationUsingArrays'>Authentication using Arrays</a></li>
-          <li><a href='/DynamicSearchBar'>Dynamic search bar</a></li>
+          <li><a href="/zaiostuff/ReactIsFun">React is fun</a></li>
+          <li><a href='/zaiostuff/AuthenticationUsingArrays'>Authentication using Arrays</a></li>
+          <li><a href='/zaiostuff/DynamicSearchBar'>Dynamic search bar</a></li>
         </ul>
       </div>
     </nav> 
