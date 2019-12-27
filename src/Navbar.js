@@ -1,5 +1,6 @@
 
 import React from 'react';
+import {HashRouter, Route,Link} from "react-router-dom"
 
 const Navbar = () => {
   return (
@@ -7,9 +8,9 @@ const Navbar = () => {
       <div className="container">
         <a className="brand-logo">Zaio Challenges</a>
         <ul className="right">
-          <li><a href="/zaiostuff/ReactIsFun">React is fun</a></li>
-          <li><a href='/zaiostuff/AuthenticationUsingArrays'>Authentication using Arrays</a></li>
-          <li><a href='/zaiostuff/DynamicSearchBar'>Dynamic search bar</a></li>
+          <li><Link to="/ReactIsFun">React is fun</Link></li>
+          <li><Link to='/AuthenticationUsingArrays'>Authentication using Arrays</Link></li>
+          <li><Link to='/DynamicSearchBar'>Dynamic search bar</Link></li>
         </ul>
       </div>
     </nav> 
