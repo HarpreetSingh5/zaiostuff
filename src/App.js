@@ -8,7 +8,7 @@ import Home from './Home'
 
 function App() {
   return (
-    <HashRouter basename ="/zaiostuff">
+    <HashRouter basename ="/">
       <div className="App">
         <Navbar/>
         <Route exact path = "/" component = {Home} />
